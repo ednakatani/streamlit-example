@@ -5,14 +5,11 @@ import pandas as pd
 import streamlit as st
 
 """
-# Welcome to Streamlit, testing!
+# Calculadora de Imóveis em Curitiba
 
-Edit `/streamlit_app.py` to customize this app to your heart's desire :heart:
+O valor aproximado é obtido a partir do treinamento de modelos de machine learning com dados de imóveis obtidos a partir de scraping da internet.
 
-If you have any questions, checkout our [documentation](https://docs.streamlit.io) and [community
-forums](https://discuss.streamlit.io).
-
-In the meantime, below is an example of what you can do with just a few lines of code:
+Os algoritmos são experimentais, não garantindo nenhuma precisão do resultado.
 """
 
 

@@ -17,12 +17,12 @@ Os algoritmos são experimentais, não garantindo nenhuma precisão do resultado
 """
 
 
-with st.echo():
-    area = st.number_input('Área Construida (m²)')
-    quartos = st.number_input('Quartos', step=1)
-    banheiros = st.number_input('Banheiros', step=1)
-    vagas = st.number_input('Vagas', step=1)
-    
-    bairro = st.selectbox('Bairro',bairros)
+
+area = st.number_input('Área Construida (m²)')
+quartos = st.number_input('Quartos', step=1)
+banheiros = st.number_input('Banheiros', step=1)
+vagas = st.number_input('Vagas', step=1)
+
+bairro = st.selectbox('Bairro',bairros)
     
     

@@ -28,5 +28,8 @@ with col2:
 
 
 bairro = st.selectbox('Bairro',bairros)
-st.button('Calcular')
+botao = st.button('Calcular')
+
+if botao:
+   st.write('teste')
     

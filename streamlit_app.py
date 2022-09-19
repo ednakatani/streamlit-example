@@ -16,12 +16,17 @@ Os algoritmos são experimentais, não garantindo nenhuma precisão do resultado
 ### Dados
 """
 
+col1, col2 = st.columns(2)
+
+with col1:
+   area = st.number_input('Área Construida (m²)')
+   banheiros = st.number_input('Banheiros', step=1)
+
+with col2:
+   quartos = st.number_input('Quartos', step=1)
+   vagas = st.number_input('Vagas', step=1)
 
 
-area = st.number_input('Área Construida (m²)')
-quartos = st.number_input('Quartos', step=1)
-banheiros = st.number_input('Banheiros', step=1)
-vagas = st.number_input('Vagas', step=1)
 
 bairro = st.selectbox('Bairro',bairros)
     

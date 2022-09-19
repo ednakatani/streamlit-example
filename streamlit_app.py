@@ -16,6 +16,7 @@ Os algoritmos são experimentais, não garantindo nenhuma precisão do resultado
 
 
 with st.echo(code_location='below'):
+    area = st.text_input('Área')
     total_points = st.slider("Number of points in spiral", 1, 5000, 2000)
     num_turns = st.slider("Number of turns in spiral", 1, 100, 9)
 

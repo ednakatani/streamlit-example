@@ -15,13 +15,14 @@ bairros = ['Abranches', 'Água Verde' ,'Ahú' ,'Alto Boqueirão' ,'Alto da Glór
 O valor aproximado é obtido a partir do treinamento de modelos de machine learning com dados de imóveis obtidos a partir de scraping da internet.
 
 Os algoritmos são experimentais, não garantindo nenhuma precisão do resultado.
-
-### Dados
 """
 
 col1, col2 = st.columns(2)
 
 with col1:
+   """
+   ### Dados
+   """
    area = st.number_input('Área Construida (m²)')
    banheiros = st.number_input('Banheiros', step=1)
    quartos = st.number_input('Quartos', step=1)
@@ -30,10 +31,11 @@ with col1:
    botao = st.button('Calcular')
 
 with col2:
+   """
+   ### Resultado
+   """
    
    if botao:
-      """
-      ### Resultado
-      """
+      
       st.write('KNN: teste')
 

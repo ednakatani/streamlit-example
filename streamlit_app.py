@@ -27,7 +27,6 @@ with col2:
    vagas = st.number_input('Vagas', step=1)
 
 
-
 bairro = st.selectbox('Bairro',bairros)
-    
+st.button('Calcular')
     

@@ -17,7 +17,7 @@ Os algoritmos são experimentais, não garantindo nenhuma precisão do resultado
 
 with st.echo(code_location='below'):
     area = st.number_input('Área Construida (m²)')
-    quartos = st.number_input('Quartos')
+    quartos = st.number_input('Quartos', step=1)
     banheiros = st.number_input('Banheiros')
     vagas = st.number_imput('Vagas')
     

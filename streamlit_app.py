@@ -37,5 +37,6 @@ with col2:
    
    if botao:
       
+      st.write('**KNN**:')
       st.write('KNN: teste')
 

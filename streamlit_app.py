@@ -31,5 +31,8 @@ bairro = st.selectbox('Bairro',bairros)
 botao = st.button('Calcular')
 
 if botao:
-   st.write('teste')
+   """
+   ### Resultado
+   """
+   st.write('KNN: teste')
     

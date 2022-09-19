@@ -10,11 +10,11 @@ simplefilter(action='ignore', category=UserWarning)
 
 bairros = ['Abranches', 'Água Verde' ,'Ahú' ,'Alto Boqueirão' ,'Alto da Glória' ,'Alto da XV' ,'Alto da Rua XV' ,'Atuba' ,'Augusta' ,'Bacacheri' ,'Bairro Alto' ,'Barigui' ,'Barreirinha' ,'Batel' ,'Bigorrilho' ,'Boa Vista' ,'Bom Retiro' ,'Boqueirão' ,'Butiatuvinha' ,'Cabral' ,'Cachoeira' ,'Cajuru' ,'Campina do Siqueira' ,'Campo Comprido' ,'Campo de Santana' ,'Capão da Imbuia' ,'Capão Raso' ,'Cascatinha' ,'Centro' ,'Centro Histórico' ,'Caximba' ,'Centro Cívico' ,'Champagnat' ,'Cidade Industrial' ,'Cristo Rei' ,'Ecoville' ,'Fanny' ,'Fazendinha' ,'Ganchinho' ,'Guabirotuba' ,'Guaíra' ,'Hauer' ,'Hugo Lange' ,'Jardim Botânico' ,'Jardim Social' ,'Jardim das Américas' ,'Juvevê' ,'Lamenha Pequena' ,'Lindoia' ,'Mercês' ,'Mossunguê' ,'Novo Mundo' ,'Orleans' ,'Parolin' ,'Pilarzinho' ,'Pinheirinho' ,'Portão' ,'Prado Velho' ,'Rebouças' ,'Riviera' ,'Santa Cândida' ,'Santa Felicidade' ,'Santa Quitéria' ,'Santo Inácio' ,'São Braz' ,'São Francisco' ,'São João' ,'São Lourenço' ,'São Miguel' ,'Seminário' ,'Sítio Cercado' ,'Taboão' ,'Tarumã' ,'Tatuquara' ,'Tingui' ,'Uberaba' ,'Umbará' ,'Vila Izabel' ,'Vista Alegre' ,'Xaxim' ,'Neoville']
 
-with open("models/KNN.mod", 'rb') as fo:  
+with open("KNN.mod", 'rb') as fo:  
     knn = load(fo)
-with open("models/scaler_knn.mod", 'rb') as fo:  
+with open("scaler_knn.mod", 'rb') as fo:  
     scaler_knn = load(fo)
-with open("models/scaler_preco_knn.mod", 'rb') as fo:  
+with open("scaler_preco_knn.mod", 'rb') as fo:  
     scaler_preco_knn = load(fo)
 
 """

@@ -13,8 +13,7 @@ bairros = ['Abranches', 'Água Verde' ,'Ahú' ,'Alto Boqueirão' ,'Alto da Glór
 path1 = os.access("KNN.mod", os.F_OK)
 st.write(path1)
 
-with open("KNN.mod", 'rb') as fo:  
-    knn = joblib.load(fo)
+loaded_model = pickle.load(open('KNN.mod', 'rb'))
 
 
 """

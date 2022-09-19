@@ -3,7 +3,7 @@ import altair as alt
 import math
 import pandas as pd
 import streamlit as st
-from sklearn.externals import joblib
+import joblib
 from sklearn.preprocessing import RobustScaler, StandardScaler, MinMaxScaler
 
 from warnings import simplefilter
